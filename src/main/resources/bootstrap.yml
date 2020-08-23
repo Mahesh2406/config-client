@@ -1,0 +1,10 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: Config-Client
+  cloud:
+    config:
+      uri: http://localhost:8990
+
+management.security.enabled: false
